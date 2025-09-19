@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("https://images3.alphacoders.com/109/109937.jpg") no-repeat center center/cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 350px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+      overflow: hidden;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #1DB954;
+      object-fit: cover;
+      margin: 10px auto;
+      display: block;
+    }
+
+    h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0 0 15px;
+      opacity: 0.9;
+    }
+
+    iframe {
+      border-radius: 12px;
+      width: 100%;
+      height: 152px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Avatar -->
+    <img class="avatar" src="https://shapes.inc/api/public/avatar/kingvon-nbmo" alt="Avatar">
+
+    <!-- Tên -->
+    <h2>Louis Phan</h2>
+
+    <!-- Tiểu sử -->
+    <p>Phan Triết Khang 7a6</p>
+
+    <!-- Nhạc Spotify -->
+    <iframe style="border-radius:12px" 
+      src="https://open.spotify.com/embed/track/5uyNAX6MazVAjBjVeOsTvp?utm_source=generator" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+</body>
+</html>
